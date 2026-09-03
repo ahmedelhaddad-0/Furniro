@@ -13,7 +13,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-[#FFFFFF] text-[#000000] w-full sticky top-0 z-50 border-b border-gray-100">
+    <nav className="bg-[#FFFFFF] px-4 text-[#000000] w-full sticky top-0 z-50 border-b border-gray-100">
       {/* Wrapper div inside the navbar with specified padding y of 29px and padding x of 54px on desktop, scaling down on mobile */}
       <div className="flex justify-between items-center py-4 max-w-360 md:py-7.25d:px-[54px] w-full mx-auto">
         {/* Left: Logo */}

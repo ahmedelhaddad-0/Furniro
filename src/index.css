@@ -1,8 +1,26 @@
 @import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
+
 @layer base {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+  body {
+    font-family: var(--font-poppins);
+  }
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1180px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding-inline: 1rem;
 }
